@@ -1,0 +1,42 @@
+{
+  "name": "@ab/material-components",
+  "private": true,
+  "version": "1.1.2",
+  "description": "ActivBrowser material components library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.activbrowser.com:tech/vue.js/ab-components/material-components.git"
+  },
+  "author": "oss@activbrowser.com",
+  "license": "ISC",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "dependencies": {
+    "fuse.js": "^6.4.1",
+    "vue": "^2.6.10",
+    "vue-multiselect": "^2.1.6",
+    "vuejs-datepicker": "^1.6.2"
+  },
+  "devDependencies": {
+    "@ab/eslint-config": "git+ssh://git@git.activbrowser.com:tech/es/ab-eslint-config.git",
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-links": "^5.1.11",
+    "@storybook/addons": "^5.1.11",
+    "@storybook/vue": "^5.1.11",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "storybook-addon-vue-info": "^1.2.3",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

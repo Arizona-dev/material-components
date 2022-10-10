@@ -1,0 +1,8 @@
+html, body {
+  margin: 2rem;
+}
+
+section.demo {
+  width: 30vw;
+  margin: 0 auto;
+}
